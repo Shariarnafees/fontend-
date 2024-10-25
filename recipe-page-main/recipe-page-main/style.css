@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ 
+:root {
+    --white: hsl(0, 0%, 100%);
+    --stone-100: hsl(30, 54%, 90%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-600: hsl(30, 10%, 34%);
+    --stone-900: hsl(24, 5%, 18%);
+    --brown-800: hsl(14, 45%, 36%);
+    --rose-800: hsl(332, 51%, 32%);
+    --rose-50: hsl(330, 100%, 98%);
+  }
+  
+  body {
+    background-color: hsl(30, 54%, 90%);
+    color: hsl(24, 5%, 18%);
+  }
+  
+   
+.main-container{
+    background: #ffffff;
+    margin: 5rem 23rem;
+    border-radius: 2rem;
+}
+
+/*=========image section===========*/
+.recipe-image{
+    overflow: hidden;
+    margin: 3rem;
+}
+.recipe-image img{
+    margin-top: 3rem;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+/*============text section=========*/
+
+.recipe-container{
+    margin: 3rem;
+}
+.recipe-container h1{
+    padding-bottom: 2rem;
+}
+.recipe-container p{
+    font-size: 16px;
+}
+
+.pt{
+    background: #ffecf8;
+    line-height: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+.pt h4{
+    margin: 0rem 0rem 0rem 2rem;
+    padding: 1.5%;
+    color: #824a5f;
+    font-size: 1.5rem;
+}
+.pt ul{
+    margin-left: 9%;
+    padding-bottom: 2%;
+}
+
+.allh1 h1{
+    color: #85493a;
+    padding-top: 1.5rem;
+}
+.ing ul{
+    margin-left: 4%;
+    padding-bottom: 3%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+.instuctons ol{
+    margin-left: 4%;
+    padding-bottom: 3%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    position: relative;
+    bottom: 1rem;
+}
+.tabile{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    padding: 1rem;
+}
+
+@media (max-width: 700px){
+    body{
+        background: #ffffff;
+    }
+    .main-container{
+        margin: 0;
+        border-radius: 0;
+    }
+    .recipe-image{
+        margin: 0;
+    }
+    .recipe-image img{
+        width: 100%;
+        border-radius: 0;
+        margin-top:0;  
+    }
+}
