@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Outfit", serif;   
+    font-weight: 400; 
+    font-style: normal;   
+}
+body{
+    background: #f2f2f2;
+    margin: 12rem;
+    color: #f2f2f2;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.continer{
+    display: flex;  
+    line-height: 4rem;  
+}
+
+p{
+    line-height: 1.5rem;
+    font-size: 1rem;
+    padding: 0rem 2rem ;
+}
+h1{
+    padding: 0rem 2rem;
+}
+img{
+    position: relative;
+    top: 1.5rem;
+    left: 1.7rem;
+}
+/*=================card==================*/
+
+.card{
+    height: 23rem;
+    width: 15rem;
+    background: #e38424;
+    border-top-left-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem; 
+}
+.button{
+    background: #f2f2f2;
+    display: inline;
+    padding: 0.6rem;
+    border-radius: 2rem;
+    height: 2.5rem;
+    position: relative;
+    top: 1rem;
+    margin-inline: 2rem;
+}
+.button {
+    color: #e38424;
+    text-decoration: none;
+}
+
+/*=================card 1==================*/
+
+.card1{
+    height: 23rem;
+    width: 15rem;
+    background: #016973;
+}
+.button1{
+    background: #f2f2f2;
+    display: inline;
+    padding: 0.6rem;
+    border-radius: 2rem;
+    height: 2.5rem;
+    position: relative;
+    top: 1rem;
+    margin-inline: 2rem;
+}
+.button1 {
+    color: #016973;
+    text-decoration: none;
+}
+
+/*=================card 2==================*/
+
+.card2{
+    height: 23rem;
+    width: 15rem;
+    background: #00403f;
+    border-top-right-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;
+}
+.button2{
+    background: #f2f2f2;
+    display: inline;
+    padding: 0.6rem;
+    border-radius: 2rem;
+    height: 2.5rem;
+    position: relative;
+    top: 1rem;
+    margin-inline: 2rem;
+}
+.button2 {
+    color: #00403f;
+    text-decoration: none;
+}
+
+.attribution{
+    position: relative;
+    top: 5rem;
+}
+.hover-button:hover{
+    background: transparent;
+    color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+    transition: 0.8s;
+}
+
+/*========== responsive for mobile============*/
+
+@media (max-width:500px){
+    .continer{
+        display: inline;
+        border-radius: 40%;
+    }
+    .card{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-left-radius: 0px;  
+    }
+    .card2{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 0rem;
+    }
+    .attribution{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
